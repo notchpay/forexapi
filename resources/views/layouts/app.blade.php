@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <livewire:styles />
     <livewire:scripts />
+    <wireui:scripts />
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
 </head>
 
 <body class="font-sans antialiased">
